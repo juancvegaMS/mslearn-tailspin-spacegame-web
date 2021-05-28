@@ -1,7 +1,7 @@
 stages:
   - stage: build
     jobs:
-      - job: 1
+      - job: build_game
 
 trigger:
 - "*"
